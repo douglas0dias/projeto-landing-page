@@ -1,0 +1,158 @@
+/* ESTILIZAÇÃO DE TODA A PÁGINA */
+* {
+    margin: 0px;
+    font-family: "inter";
+}
+
+/* ESTILIZAÇÃO LOGO DNC */
+#logo {
+    margin-left: 56px;
+    margin-top: 52px;
+    width: 125px;
+    height: 62px;
+}
+
+/* ESTILIZAÇÃO DO MENU SUPERIOR */
+#menuSuperior {
+    background-image: url(Imagens/fundoMenuSuperior.svg);
+    color: #ffffff;
+}
+
+/* ESTILIZAÇÃO DO TITULO DO MENU SUPERIOR */
+#titulo-menuSuperior {
+    margin-left: 185px;
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 51.4px;
+}
+
+/* ESTILIZAÇÃO DO TEXTO DO MENU SUPERIOR */
+#texto-menuSuperior {
+    margin-left: 185px;
+    margin-top: 35px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 100px;
+}
+
+/* ESTILIAZAÇÃO DO MENU INFORMACIONAL */
+#menuInformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    /* define como os elementos são organzados em um grid */
+    columns: auto;
+    /* define o número de colunas no grid */
+}
+
+/* ESTILIZAÇÃO DOS ÍCONES DO MENU INFORMACIONAL */
+.icones {
+    margin: 50px 0px 50px 185px;
+    padding: 20px;
+}
+
+/* ESTILIZAÇÃO DOS TEXTOS DO MENU INFORMACIONAL */
+.textoInformativo {
+    display: flex;
+    align-items: center;
+}
+
+/* ESTILIZAÇÃO DO VÍDEO */
+#secaoVideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+/* ESTILIZAÇÃO DO VÍDEO */
+#video {
+    margin: 50px 25px 50px 185px;
+}
+
+/* ESTILIZAÇÃO DO TEXTO DO VÍDEO */
+#tituloVideo {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#carrosel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#tituloCarrossel {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+}
+
+#divCards {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards {
+    margin-left: 50px;
+}
+
+#setaEsquerda {
+    display: none;
+}
+
+#bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(7px);
+    transition: 0.5s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#tituloFormulário {
+    font-size: 32px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    Width: 300px;
+    Height: 40px;
+    margin: 15px;
+    background-color: #EAECE5;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 250px;
+    Height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #022e41;
+    color: #ffffff;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #00b3ff;
+    transition: 0.5s;
+}
