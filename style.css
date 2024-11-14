@@ -1,158 +1,249 @@
-/* ESTILIZAÇÃO DE TODA A PÁGINA */
-* {
-    margin: 0px;
-    font-family: "inter";
-}
-
-/* ESTILIZAÇÃO LOGO DNC */
-#logo {
-    margin-left: 56px;
-    margin-top: 52px;
-    width: 125px;
-    height: 62px;
-}
-
-/* ESTILIZAÇÃO DO MENU SUPERIOR */
-#menuSuperior {
-    background-image: url(Imagens/fundoMenuSuperior.svg);
-    color: #ffffff;
-}
-
-/* ESTILIZAÇÃO DO TITULO DO MENU SUPERIOR */
-#titulo-menuSuperior {
-    margin-left: 185px;
-    margin-top: 50px;
-    font-family: Inter;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 51.4px;
-}
-
-/* ESTILIZAÇÃO DO TEXTO DO MENU SUPERIOR */
-#texto-menuSuperior {
-    margin-left: 185px;
-    margin-top: 35px;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-bottom: 100px;
-}
-
-/* ESTILIAZAÇÃO DO MENU INFORMACIONAL */
-#menuInformacional {
-    background-color: #EAECE5;
-    display: grid;
-    grid-auto-flow: column;
-    /* define como os elementos são organzados em um grid */
-    columns: auto;
-    /* define o número de colunas no grid */
-}
-
-/* ESTILIZAÇÃO DOS ÍCONES DO MENU INFORMACIONAL */
-.icones {
-    margin: 50px 0px 50px 185px;
-    padding: 20px;
-}
-
-/* ESTILIZAÇÃO DOS TEXTOS DO MENU INFORMACIONAL */
-.textoInformativo {
-    display: flex;
-    align-items: center;
-}
-
-/* ESTILIZAÇÃO DO VÍDEO */
-#secaoVideo {
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
-}
-
-/* ESTILIZAÇÃO DO VÍDEO */
-#video {
-    margin: 50px 25px 50px 185px;
-}
-
-/* ESTILIZAÇÃO DO TEXTO DO VÍDEO */
-#tituloVideo {
-    color: #247BA0;
-    margin-top: 50px;
-}
-
-#carrosel {
-    background-color: #247BA0;
-    padding: 50px;
-}
-
-#tituloCarrossel {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-}
-
-#divCards {
-    display: grid;
-    grid-auto-flow: column;
-}
-
-.cards {
-    margin-left: 50px;
-}
-
-#setaEsquerda {
-    display: none;
-}
-
-#bruna {
-    display: none;
-}
-
-.seta {
-    margin-top: 55%;
-    cursor: pointer;
-}
-
-.seta:hover {
-    transform: translateY(7px);
-    transition: 0.5s;
-}
-
-#formulario {
-    text-align: center;
-}
-
-#tituloFormulário {
-    font-size: 32px;
-    margin: 25px;
-    color: #383838;
-}
-
-input {
-    Width: 300px;
-    Height: 40px;
-    margin: 15px;
-    background-color: #EAECE5;
-    border: 0px;
-    border-radius: 10px;
-    padding-left: 10px;
-}
-
-button{
-    background-color: #247BA0;
-    width: 250px;
-    Height: 40px;
-    border: 0px;
-    border-radius: 10px;
-    color: #ffffff;
-    margin-bottom: 50px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #022e41;
-    color: #ffffff;
-    transform: translateY(-7px);
-    box-shadow: 0px 15px 20px #00b3ff;
-    transition: 0.5s;
-}
+    /* ESTILIZAÇÃO DE TODA A PÁGINA */
+    * {
+        margin: 0;
+        font-family: "Inter";
+    }
+    
+    /* ESTILIZAÇÃO LOGO DNC */
+    #logo {
+        margin-left: 3.5rem;
+        margin-top: 3.25rem;
+        width: 7.8125rem;
+        height: 3.875rem;
+    }
+    
+    /* ESTILIZAÇÃO DO MENU SUPERIOR */
+    #menuSuperior {
+        background-image: url(Imagens/fundoMenuSuperior.svg);
+        color: #ffffff;
+    }
+    
+    /* ESTILIZAÇÃO DO TITULO DO MENU SUPERIOR */
+    #titulo-menuSuperior {
+        margin-left: 11.5625rem;
+        margin-top: 3.125rem;
+        font-family: Inter;
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 3.2125rem;
+    }
+    
+    /* ESTILIZAÇÃO DO TEXTO DO MENU SUPERIOR */
+    #texto-menuSuperior {
+        margin-left: 11.5625rem;
+        margin-top: 2.1875rem;
+        font-family: Inter;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.875rem;
+        padding-bottom: 6.25rem;
+    }
+    
+    /* ESTILIZAÇÃO DO MENU INFORMACIONAL */
+    #menuInformacional {
+        background-color: #EAECE5;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+    }
+    
+    /* ESTILIZAÇÃO DOS ÍCONES DO MENU INFORMACIONAL */
+    .icones {
+        margin: 3.125rem 0 3.125rem 11.5625rem;
+        padding: 1.25rem;
+    }
+    
+    /* ESTILIZAÇÃO DOS TEXTOS DO MENU INFORMACIONAL */
+    .textoInformativo {
+        display: flex;
+        align-items: center;
+    }
+    
+    /* ESTILIZAÇÃO DO VÍDEO */
+    #secaoVideo {
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+    }
+    
+    /* ESTILIZAÇÃO DO VÍDEO */
+    #video {
+        margin: 3.125rem 1.5625rem 3.125rem 11.5625rem;
+    }
+    
+    /* ESTILIZAÇÃO DO TEXTO DO VÍDEO */
+    #tituloVideo {
+        color: #247BA0;
+        margin-top: 3.125rem;
+    }
+    
+    #carrosel {
+        background-color: #247BA0;
+        padding: 3.125rem;
+    }
+    
+    #tituloCarrossel {
+        color: #ffffff;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #divCards {
+        display: grid;
+        grid-auto-flow: column;
+    }
+    
+    .cards {
+        margin-left: 3.125rem;
+    }
+    
+    #setaEsquerda {
+        display: none;
+    }
+    
+    #bruna {
+        display: none;
+    }
+    
+    .seta {
+        margin-top: 55%;
+        cursor: pointer;
+    }
+    
+    .seta:hover {
+        transform: translateY(0.4375rem);
+        transition: 0.5s;
+    }
+    
+    #formulario {
+        text-align: center;
+    }
+    
+    #tituloFormulário {
+        font-size: 2rem;
+        margin: 1.5625rem;
+        color: #383838;
+    }
+    
+    input {
+        width: 18.75rem;
+        height: 2.5rem;
+        margin: 0.9375rem;
+        background-color: #EAECE5;
+        border: 0;
+        border-radius: 0.625rem;
+        padding-left: 0.625rem;
+    }
+    
+    button {
+        background-color: #247BA0;
+        width: 15.625rem;
+        height: 2.5rem;
+        border: 0;
+        border-radius: 0.625rem;
+        color: #ffffff;
+        margin-bottom: 3.125rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #022e41;
+        color: #ffffff;
+        transform: translateY(-0.4375rem);
+        box-shadow: 0 0.9375rem 1.25rem #00b3ff;
+        transition: 0.5s;
+    }
+    
+    @media (max-width: 48rem) {
+        /* Menu superior */
+        #menuSuperior {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        /* Menu informacional */
+        #menuInformacional {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .icones {
+            margin: 1.375rem 0;
+        }
+    
+        /* Vídeo */
+        #secaoVideo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #video {
+            margin: 1.25rem;
+            width: 100%;
+            height: 18.75rem;
+        }
+    
+        #tituloVideo {
+            font-size: 2.5rem;
+            margin-top: 1.25rem;
+        }
+    
+        #textoVideo {
+            font-size: 1.25rem;
+            margin-top: 1.25rem;
+            margin-bottom: 1.25rem;
+            align-items: center;
+        }
+    
+        /* Carrossel */
+        #carrosel {
+            padding: 1.25rem;
+        }
+    
+        #tituloCarrossel {
+            align-items: center;
+            margin-left: 1.875rem;
+        }
+    
+        #divCards {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .seta {
+            margin-top: -6.25rem;
+            width: 3.125rem;
+            align-items: center;
+        }
+    
+        .cards {
+            margin: 1.25rem 0;
+        }
+    
+        /* Formulário */
+        #formulario {
+            padding: 1.25rem;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        #tituloFormulário {
+            font-size: 1.875rem;
+        }
+    
+        input {
+            width: 100%;
+            height: 2.5rem;
+        }
+    
+        button {
+            font-size: 1.125rem;
+            width: 90%;
+            height: 2.5rem;
+        }
+    }
+    
